@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+body {
+    font-family: momo trust display;
+    background-color: grey;
+    display: flex;
+    min-height: 94vh;
+    justify-content: center; 
+    margin: 15px;
+    background: #74d493;
+background: linear-gradient(90deg, rgba(116, 212, 147, 1) 25%, rgba(79, 171, 102, 1) 57%, rgba(135, 194, 110, 1) 94%);               
+}
+
+
+.Container {
+    align-content: center;
+    display: flex;
+    width: 100%;              
+    justify-content: center;
+}
+.Container--Nav{
+    background-color: rgb(223, 217, 217);
+    border: solid;
+    border-color: black;
+    width: 1500px;           
+    max-width: 85%;          
+    height: 120px;            
+    box-sizing: border-box;  
+    display: flex;           
+    align-items: center;     
+    justify-content: space-between; 
+    flex-direction: row;
+
+}
+.Container--Nav--Name {
+    font-size:45px;
+    margin: 5px;
+    color: #145529;
+    text-decoration: none;
+    
+}
+.Container--Nav--Reg--Button {
+    margin-right: 15px;
+    font-size: 50px;
+    color: #145529;
+    transition: 0.5s;
+}
+.Container--Nav--Reg--Button:hover{
+    font-size: 65px;
+}
+.Container--Main {
+    align-content: center;
+    display: flex;
+    width: 100%;              
+    justify-content: center;
+}
+
+.Container--Main--In {
+    
+    margin: 10px;
+     background-color: rgb(223, 217, 217);
+    border: solid;
+    border-color: black;
+    max-width: 85%;
+    width: 900px;
+    height: 600px;
+     display: flex;           
+    align-items: center;     
+    justify-content: center;
+}
+
