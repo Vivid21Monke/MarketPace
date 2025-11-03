@@ -8,66 +8,123 @@ body {
     justify-content: center; 
     margin: 15px;
 }
-
-
-.Container {
-    align-content: center;
+.Login--Main {
     display: flex;
-    width: 100%;              
-    justify-content: center;
-}
-.Container--Nav{
-    background-color: rgb(227, 225, 225);
-    border: solid;
+    border-style: solid;
     border-color: #036019;
     border-width: 3px;
-    width: 100vw;           
-    max-width: 85%;          
-    height: 120px;            
-    box-sizing: border-box;  
-    display: flex;           
-    align-items: center;     
-    justify-content: space-between; 
-    flex-direction: row;
+    position: relative; 
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    align-items:center;
+    flex-direction: column;
+    width: 33rem;
+    height: 40rem;
+    background-color: rgb(227, 225, 225);
+    text-align: center;
     border-radius: 15px;
-
-
 }
-.Container--Nav--Name {
+.Login--Main--WebName {
     font-size:45px;
-    margin: 5px;
+    margin-top: 5px;
     color: #145529;
     text-decoration: none;
+}
+.Login--Main--User--Text{
+    margin-top: 70px;
+    font-size: 25px;
     
 }
-.Container--Nav--Reg--Button {
-    margin-right: 15px;
-    font-size: 50px;
-    color: #145529;
-    transition: 0.5s;
-}
-.Container--Nav--Reg--Button:hover{
-    font-size: 65px;
-}
-.Container--Main {
-    align-content: center;
-    display: flex;
-    width: 100%;              
-    justify-content: center;
-}
-
-.Container--Main--In {
-    border-radius: 15px;
-    margin: 10px;
-     background-color: rgb(227, 225, 225);
+.Login--Main--User{
+    margin-top: 5px;
+    width:350px;
+    height: 45px;
     border: solid;
     border-color: #036019;
-    border-width: 3px;
-    max-width: 85%;
-    width: 900px;
-    height: 600px;
-     display: flex;           
-    align-items: center;     
-    justify-content: center;
+    border-width: 1.5x;
 }
-
+.Login--Main--Password--Text {
+    margin-top: 50px;
+    font-size: 25px;
+}
+.Login--Main--Password {
+    margin-top: 5px;
+    width:350px;
+    height: 45px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1.5x;
+}
+.Login--Main--Button {
+    margin-top: 10px;
+    width: 175px;
+    height: 45px;
+    font-size: 30px;
+    padding: 5px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1px;
+    transition: 0.5s;
+}
+.Login--Main--Button:hover {
+    margin-top: 10px;
+    width: 175px;
+    height: 45px;
+    font-size: 30px;
+    padding: 5px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1px;
+    background-color: #03601986;
+}
+.Login--Main--Sign--Text {
+    margin-top: 160px;
+}
+.Login--Main--Sign--Button {
+    margin-top: 3px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1px;
+    transition: 0.5s;
+    width: 80px;
+    height: 20px;
+}
+.Login--Main--Sign--Button:hover {
+    margin-top: 3px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1px;
+    transition: 0.5s;
+    width: 80px;
+    height: 20px;
+    background-color: #03601993;
+}
+.Login--Main--Sign--Button--Text {
+    text-decoration: none;
+    color:black;
+}
+.Signin--Main--Password--Text {
+    margin-top: 25px;
+    font-size: 25px;
+}
+.Signin--Main--Sign--Button {
+    margin-top: 10px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1px;
+    transition: 0.5s;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+}
+.Signin--Main--Sign--Button:hover {
+    margin-top: 10px;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    border: solid;
+    border-color: #036019;
+    border-width: 1px;
+    background-color: #03601986;
+}
