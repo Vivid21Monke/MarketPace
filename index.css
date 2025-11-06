@@ -40,14 +40,25 @@ body {
     text-decoration: none;
     
 }
-.Container--Nav--Reg--Button {
+.Container--Nav--Cre--Button {
     margin-right: 15px;
-    font-size: 50px;
+    font-size: 35px;
     color: #145529;
     transition: 0.5s;
+    border: solid;
+    border-color:#145529;
+    text-decoration: none;
+    border-width: 2.5px;
+    border-radius: 15px;
 }
-.Container--Nav--Reg--Button:hover{
-    font-size: 65px;
+.Container--Nav--Cre--Button:hover{
+    font-size:45px;
+    border: solid;
+    border-color:#145529;
+    text-decoration: none;
+    border-width: 2.5px;
+    border-radius: 15px;
+    background-color: #03601963;
 }
 .Container--Main {
     align-content: center;

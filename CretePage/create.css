@@ -8,123 +8,204 @@ body {
     justify-content: center; 
     margin: 15px;
 }
-.Login--Main {
-    display: flex;
-    border-style: solid;
-    border-color: #036019;
-    border-width: 3px;
-    position: relative; 
-    margin: 0 auto;
-    margin-top: 1.5rem;
-    align-items:center;
-    flex-direction: column;
-    width: 33rem;
-    height: 40rem;
-    background-color: rgb(227, 225, 225);
-    text-align: center;
+.Main--Crete--Container {
+    border: solid;
+    border-color:#036019 ;
+    border-width: 2.5px;
     border-radius: 15px;
+    width: 1150px;
+    height: 800px;
+    width: 60%;
+    background-color:rgb(227, 225, 225) ;
+    display: flex;
 }
-.Login--Main--WebName {
-    font-size:45px;
-    margin-top: 5px;
-    color: #145529;
-    text-decoration: none;
-}
-.Login--Main--User--Text{
-    margin-top: 70px;
-    font-size: 25px;
-    
-}
-.Login--Main--User{
-    margin-top: 5px;
-    width:350px;
-    height: 45px;
-    border: solid;
-    border-color: #036019;
-    border-width: 1.5x;
-}
-.Login--Main--Password--Text {
-    margin-top: 50px;
+.Photo--Text {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 7px;
     font-size: 25px;
 }
-.Login--Main--Password {
-    margin-top: 5px;
-    width:350px;
-    height: 45px;
+.Photo--Place {
     border: solid;
     border-color: #036019;
-    border-width: 1.5x;
-}
-.Login--Main--Button {
-    margin-top: 10px;
-    width: 175px;
-    height: 45px;
-    font-size: 30px;
-    padding: 5px;
-    border: solid;
-    border-color: #036019;
-    border-width: 1px;
-    transition: 0.5s;
-}
-.Login--Main--Button:hover {
-    margin-top: 10px;
-    width: 175px;
-    height: 45px;
-    font-size: 30px;
-    padding: 5px;
-    border: solid;
-    border-color: #036019;
-    border-width: 1px;
-    background-color: #03601986;
-}
-.Login--Main--Sign--Text {
-    margin-top: 160px;
-}
-.Login--Main--Sign--Button {
+    border-width: 2.5px;
+    border-radius: 15px;
+    width: 600px;
+    width: 85%;
+    height: 400px;
+    margin-left: 50px;
     margin-top: 3px;
-    border: solid;
-    border-color: #036019;
-    border-width: 1px;
-    transition: 0.5s;
-    width: 80px;
-    height: 20px;
+    background-color:rgb(227, 225, 225) ;
 }
-.Login--Main--Sign--Button:hover {
-    margin-top: 3px;
-    border: solid;
-    border-color: #036019;
-    border-width: 1px;
-    transition: 0.5s;
-    width: 80px;
-    height: 20px;
-    background-color: #03601993;
-}
-.Login--Main--Sign--Button--Text {
-    text-decoration: none;
-    color:black;
-}
-.Signin--Main--Password--Text {
+.Name--Text{
     margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 3px;
     font-size: 25px;
 }
-.Signin--Main--Sign--Button {
-    margin-top: 10px;
+.Name--Place {
     border: solid;
     border-color: #036019;
-    border-width: 1px;
-    transition: 0.5s;
-    width: 90px;
-    height: 50px;
-    font-size: 20px;
+    border-width: 2.5px;
+    border-radius: 15px;
+    width: 100px;
+    width: 65%;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 3px;
+    background-color: rgb(227, 225, 225);
 }
-.Signin--Main--Sign--Button:hover {
-    margin-top: 10px;
-    width: 90px;
-    height: 50px;
-    font-size: 20px;
-    padding: 5px;
+.Flex--Left--Side {
+    flex-direction: column;
+    width: 600px;
+    height: 1000px;
+}
+.Flex--Right--Side {
+    height: 800px;
+    width: 800px;
+}
+.Price--Text {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+.Price--Place {
     border: solid;
     border-color: #036019;
-    border-width: 1px;
-    background-color: #03601986;
+    border-width: 2.5px;
+    border-radius: 15px;
+    width: 100px;
+    width: 65%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: rgb(227, 225, 225);
+}
+.Decription--Text {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.Decription--Place {
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    width: 90%;
+    height: 399px;
+    margin-left: 10px;
+    background-color: rgb(227, 225, 225);
+    font-size: 30px;
+}
+.Create--Main--Container {
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    width: 92%;
+    height: 100px;
+    margin-top:20px;
+    margin-left: 10px;
+    background-color: rgb(227, 225, 225);
+    transition: 0.5s;
+    font-size: 40px;
+}
+.Create--Main--Container:hover {
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    width: 92%;
+    height: 100px;
+    margin-top:20px;
+    margin-left: 10px;
+    background-color:#0360196e;
+}
+.Create--Back--Button {
+    margin-top: 80px;
+    margin-left: 455px;
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    transition: 0.5s;
+    width: 75px;
+    height: 35px;
+}
+.Create--Back--Button:hover {
+    margin-top: 60px;
+    margin-left: 440px;
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    background-color: #0360195d;
+    width: 100px;
+    height: 55px;
+}
+.Create--Back--Text {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+/* js */
+#drop-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 435px;
+  max-width: 100%;
+  height: 365px;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  color: slategray;
+  cursor: pointer;
+  
+}
+
+#file-input {
+  display: none;
+}
+
+#preview {
+  width: 500px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  list-style: none;
+  padding: 0;
+}
+
+#preview li {
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 0px;
+}
+
+#preview img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+#clear-btn {
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+#clear-btn:hover {
+    border: solid;
+    border-color: #036019;
+    border-width: 2.5px;
+    border-radius: 15px;
+    background-color: #03601971;
 }
