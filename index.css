@@ -69,15 +69,34 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .Container--Main--In {
     border-radius: 15px;
     margin: 10px;
-     background-color: rgb(227, 225, 225);
+     background-color: rgba(227, 225, 225, 0.31);
     border: solid;
     border-color: #5E936C;
     border-width: 3px;
     max-width: 90%;
-    width: 1000px;
+    width: 1100px;
     height: 600px;
      display: flex;           
     align-items: center;     
     justify-content: center;
 }
-
+.Container--Main--In--Items {
+    border: solid;
+    border: #036019;
+    background: whitesmoke;
+    border-radius: 15px;
+    border-width: 3px;
+    width: 35%;
+    height:25%;
+    margin: 20px;
+}
+.Item--Main {
+    display: flex;
+}
+.item--photo {
+    border-style: solid;
+    border: #036019;
+    margin: 5px;
+    width: 75%;
+    height: 50px;
+}
