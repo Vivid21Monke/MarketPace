@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <Div class="Main--Crete--Container">
+        <div class="Flex--Left--Side">
+            <div>
+                <p class="Name--Text">Item name:</p>
+                <input class="Name--Place" type="text">
+            </div>
+            <p class="Photo--Text">Photo:</p>
+            <div class="Photo--Place">
+                <label id="drop-zone">
+  Drop images here, or click to upload.
+  <input type="file" id="file-input" multiple accept="image/*" />
+</label>
+<ul id="preview"></ul>
+<button id="clear-btn">Clear</button>
+            </div>
+        </div>     
+        <div class="Flex--Right--Side">
+            <div>
+                <p class="Price--Text">Cena:</p>
+                <Input type="text" class="Price--Place"></Input>
+            </div>
+            <div>
+                <p class="Decription--Text">Apraksts:</p>
+                <input type="text" class="Decription--Place">
+            </div>
+            <div class="">
+                <Button class="Create--Main--Container">
+                    Create
+                </Button>
+            </div>
+            <div>
+                <button class="Create--Back--Button">
+                    <a class="Create--Back--Text" href="/index.html">Back</a>
+                </button>
+            </div>
+        </div>
+           
+    </Div>
+    <script src="Image.js"></script>
+</body>
+</html>
