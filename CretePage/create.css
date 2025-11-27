@@ -57,11 +57,11 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 .Flex--Left--Side {
     flex-direction: column;
-    width: 75%;
+    width: 50%;
     height: 80%;
 }
 .Flex--Right--Side {
-    width: 75%;
+    width: 50%;
     height: 80%;
 }
 .Price--Text {

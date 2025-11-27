@@ -23,15 +23,19 @@
 
                     <div class="Container--Main--In--Items">
                         <div class="Item--Main">
-                            <div class="item--photo">
+                            <div class="Item--photo">
                                 <img src="" alt="Test image">
                             </div>
+                            <div class="Name--Price--Line">
+                                <div class="Item--name">
+                                    Item--name
+                                </div>
+                                <div class="Item--price">
+                                    item--price
+                                </div>
+                            </div>    
                             <div>
-                                item--price
-                                item--name
-                            </div>
-                            <div>
-                                msg--button
+                                <button class="msg--button">Mesage</button>
                             </div>
                         </div>
                     </div>
