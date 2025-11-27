@@ -6,6 +6,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     max-height: 80vh;
     justify-content: center; 
     margin: 15px;
+    font-family: momo trust display;
 }
 .Main--Crete--Container {
     border: solid;
