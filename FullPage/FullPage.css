@@ -80,55 +80,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     justify-content: center;
     backdrop-filter: blur(7px);
 }
-/* Items */
-.Container--Main--In--Items {
-    border: solid;
-    border: #282560;
-    background: rgba(227, 225, 225,0.75);
-    border-radius: 15px;
-    border-width: 3px;
-    width: 35%;
-    height:25%;
-    margin: 20px;
-}
-.Item--Main {
-    display: flex;
-}
-.Item--photo {
-    border: solid;
-    border-color: #282560;
-    margin: 5px;
-    border-radius: 15px;
-    height: 135px;
-    max-height: 110%;
-    max-width: 100%;
-    width: 170px;
-    
-}
-.Name--Price--Line {
-    flex-direction: row;
-    margin: 5px;
-}
-.Item--price {
-    text-wrap: nowrap;
-    border: solid;
-    border-color: #282560;
-    border-radius: 15px;
-    align-content: center;
-    margin: .5px;
-    width: 80%;
-    height: 45%;
-}
-.Item--name {
-    text-wrap: nowrap;
-    border: solid;
-    border-color: #282560;
-    border-radius: 15px;
-    align-content: center;
-    margin: 2px;
-    width: 80%;
-    height: 45%;
-}
+
 .View--button {
     text-wrap: nowrap;
     border: solid;
