@@ -111,3 +111,95 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     color: black;
     margin: 11px;
 }
+
+.Big--Photo {
+    border-style: solid;
+    border-color: #282560;
+    border-radius: 15px;
+    width:33rem;
+    height: 29rem;
+    margin-bottom:10px;
+    
+}
+.Big--Name{
+    border-style: solid;
+    border-color: #282560;
+    border-radius: 15px;
+    width: 17rem;
+    height: 5rem;
+    margin-right: 2.5px;
+}
+.Big--Price{
+    border-style: solid;
+    border-color: #282560;
+    border-radius: 15px;
+    width: 15rem;
+    height: 5rem;
+    margin-left: 2.5px;
+}
+.Big--Desc{
+    border-style: solid;
+    border-color: #282560;
+    border-radius: 15px;
+    width: 30rem;
+    height: 10rem;
+    margin-left: 3px;
+}
+.Big--Msg--Area{
+    border-style: solid;
+    border-color: #282560;
+    border-radius: 15px;
+    margin-left: 3px;
+    width: 30rem;
+    height: 24rem;
+    margin-top: 10px;
+}
+.Flex--Under--Each{
+    display: flex;
+    flex-direction: column;
+}
+.Flex--Next--Each {
+    display: flex;
+    flex-direction: row;
+}
+.Flex--Next--Each--Msg {
+    display: flex;
+    flex-direction: row;
+   
+    border-radius: 15px;
+}
+.Msg--Sent--Button{
+    width: 3rem;
+    height: 3rem;
+    border-top-right-radius: 15px;
+    border-style: none;
+    border-bottom: solid;
+    border-color: #282560;
+    background-color: rgba(237, 34, 78, 0.21);
+    border-left: solid;
+    border-color: #282560;
+    transition: 0.3s;
+}
+.Msg--Sent--Button:hover{
+    width: 3rem;
+    height: 3rem;
+    border-top-right-radius: 15px;
+    border-style: none;
+    border-bottom: solid;
+    border-color: #282560;
+    background-color: rgba(153, 17, 48, 0.797);
+    border-left: solid;
+    border-color: #282560;
+}
+
+.Msg--Text--Inp{
+    border-style: none;
+    width: 103rem;
+    border-top-left-radius: 15px;
+    border-bottom: solid;
+    border-color: #282560;
+    background-color: rgba(237, 34, 78, 0.21);
+}
+.Msg--Inp--Color {
+    color: grey;
+}
