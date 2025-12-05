@@ -7,6 +7,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     margin: 15px;
     font-family: Alfa Slab One;
 }
+
 .Container {
     align-content: center;
     display: flex;
@@ -78,6 +79,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     align-items: center;     
     justify-content: center;
     backdrop-filter: blur(7px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
 }
 /* Items */
 .Container--Main--In--Items {
@@ -86,9 +90,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     background: rgba(227, 225, 225,0.75);
     border-radius: 15px;
     border-width: 3px;
-    width: 35%;
-    height:25%;
-    margin: 20px;
+    width: 98%;
+    height:92%;
+    margin: 5px;
 }
 .Item--Main {
     display: flex;
@@ -157,4 +161,13 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     text-decoration: none;
     color: black;
     margin: 11px;
+}
+.Grid--Item--Layout{
+    display: grid;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* background-color: dodgerblue; */
+    padding: 5px;
+    width: 100%;
+    margin-left:10% ;
 }
