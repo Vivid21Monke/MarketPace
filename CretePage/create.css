@@ -152,7 +152,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     text-decoration: none;
     color: black;
 }
-/* Money input */
+
 .form-row {
     padding: 5px 10px;
 }
@@ -168,7 +168,7 @@ input.currency {
     text-align: right;
     padding-right: 15px;
 }
-/* js */
+
 #drop-zone {
   display: flex;
   align-items: center;

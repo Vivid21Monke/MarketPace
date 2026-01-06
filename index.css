@@ -83,15 +83,15 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     overflow-x: hidden;
 
 }
-/* Items */
+
 .Container--Main--In--Items {
     border: solid;
     border: #282560;
     background: rgba(227, 225, 225,0.75);
     border-radius: 15px;
     border-width: 3px;
-    width: 120%;
-    height:92%;
+    width: 79%;
+    height:95%;
     margin: 5px;
 }
 .Item--Main {
@@ -118,9 +118,10 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     border-color: #282560;
     border-radius: 15px;
     align-content: center;
-    margin: .5px;
+    margin: 2px;
     width: 80%;
     height: 45%;
+    margin-left: 15px;
 }
 .Item--name {
     text-wrap: nowrap;
@@ -131,6 +132,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     margin: 2px;
     width: 80%;
     height: 45%;
+    margin-left: 15px;
 }
 .View--button {
     text-wrap: nowrap;
@@ -166,8 +168,59 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     display: grid;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    /* background-color: dodgerblue; */
     padding: 5px;
     width: 100%;
     margin-left:10% ;
+}
+
+
+.Item--Card {
+  border: 2px solid #2c2c6c;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.Item--Image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  background: white;
+}
+
+.Item--Info {
+  padding: 10px;
+}
+
+.Item--name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.Item--price {
+  color: #2c2c6c;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.View--Button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #2c2c6c;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2c2c6c;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.View--Button:hover {
+  background: #2c2c6c;
+  color: white;
 }
