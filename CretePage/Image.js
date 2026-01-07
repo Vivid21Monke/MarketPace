@@ -56,7 +56,7 @@ createBtn.addEventListener("click", () => {
   const description = document.getElementById("itemDescription").value.trim();
 
   if (!name || !price || !description || selectedFiles.length === 0) {
-    alert("Please fill all fields and add at least one image.");
+    alert("Aizpildi visu un pievieno vismaz vienu attle!");
     return;
   }
 

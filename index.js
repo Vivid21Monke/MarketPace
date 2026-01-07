@@ -32,6 +32,9 @@ items.forEach(item => {
   viewLink.href = "FullPage/FullPage.html";
   viewLink.className = "View--Button";
   viewLink.textContent = "View more";
+  viewLink.onclick = () => {
+    sessionStorage.setItem("selectedItemId", item.id);
+  };
 
   info.appendChild(nameDiv);
   info.appendChild(priceDiv);
