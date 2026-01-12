@@ -1,5 +1,5 @@
-const items = JSON.parse(sessionStorage.getItem("marketItems")) || []
-const selectedId = sessionStorage.getItem("selectedItemId")
+const items = JSON.parse(localStorage.getItem("marketItems")) || []
+const selectedId = localStorage.getItem("selectedItemId")
 
 const item = items.find(i => i.id == selectedId)
 

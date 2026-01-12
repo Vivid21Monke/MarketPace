@@ -1,4 +1,4 @@
-const items = JSON.parse(sessionStorage.getItem("marketItems")) || [];
+const items = JSON.parse(localStorage.getItem("marketItems")) || [];
 const container = document.getElementById("itemsContainer");
 
 if (items.length === 0) {
@@ -33,7 +33,7 @@ items.forEach(item => {
   viewLink.className = "View--Button";
   viewLink.textContent = "View more";
   viewLink.onclick = () => {
-    sessionStorage.setItem("selectedItemId", item.id);
+    localStorage.setItem("selectedItemId", item.id);
   };
 
   info.appendChild(nameDiv);
