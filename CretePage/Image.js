@@ -56,7 +56,7 @@ createBtn.addEventListener("click", () => {
   const description = document.getElementById("itemDescription").value.trim();
 
   if (!name || !price || !description || selectedFiles.length === 0) {
-    alert("Aizpildi visu un pievieno vismaz vienu attle!");
+    alert("Aizpildi visu un pievieno vismaz vienu attlu!");
     return;
   }
 
