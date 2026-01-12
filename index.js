@@ -2,7 +2,7 @@ const items = JSON.parse(sessionStorage.getItem("marketItems")) || [];
 const container = document.getElementById("itemsContainer");
 
 if (items.length === 0) {
-  container.innerHTML = "<p>No items yet.</p>";
+  container.innerHTML = "<p>Nav sludinajumu!.</p>";
 }
 
 items.forEach(item => {

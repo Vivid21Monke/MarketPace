@@ -16,19 +16,5 @@ const input = document.querySelector(".Msg--Text--Inp")
 const sendBtn = document.querySelector(".Msg--Sent--Button")
 const msgArea = document.querySelector(".Msg--Sent--Area")
 
-let messages = []
 
-sendBtn.addEventListener("click", () => {
-  const text = input.value.trim()
-  if (text === "") return
 
-  messages.push(text)
-  input.value = ""
-
-  msgArea.innerHTML = ""
-  messages.forEach(msg => {
-    const div = document.createElement("div")
-    div.textContent = msg
-    msgArea.appendChild(div)
-  })
-})
