@@ -3,17 +3,15 @@ const selectedId = sessionStorage.getItem("selectedItemId")
 
 const item = items.find(i => i.id == selectedId)
 
-if (!item) {
-  document.body.innerHTML = "Item not found"
-}
+
 
 const image = document.querySelector("img")
 image.src = item.images[0]
 
 document.querySelector("#itemName").textContent = item.name
-document.querySelector("#itemPrice").textContent = "€" + item.price
+document.querySelector("#itemPrice").textContent =   item.price +"€"
 document.querySelector("#itemDescription").textContent = item.description
-
+ 
 const input = document.querySelector(".Msg--Text--Inp")
 const sendBtn = document.querySelector(".Msg--Sent--Button")
 const msgArea = document.querySelector(".Msg--Sent--Area")

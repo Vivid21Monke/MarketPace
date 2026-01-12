@@ -26,7 +26,7 @@ items.forEach(item => {
 
   const priceDiv = document.createElement("div");
   priceDiv.className = "Item--price";
-  priceDiv.textContent = "€" + item.price;
+  priceDiv.textContent =   item.price + "€";
 
   const viewLink = document.createElement("a");
   viewLink.href = "FullPage/FullPage.html";
