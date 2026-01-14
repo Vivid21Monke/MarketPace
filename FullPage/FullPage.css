@@ -122,6 +122,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .Img--Big{
     max-width: 500px;
     max-height: 50rem;
+    border-radius: 15px;
 }
 .Big--Name{
     border-style: solid;
