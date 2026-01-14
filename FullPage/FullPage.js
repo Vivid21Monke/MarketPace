@@ -6,7 +6,7 @@ const item = items.find(i => i.id == selectedId)
 
 
 const image = document.querySelector("img")
-image.src = item.images[1]
+image.src = item.images[0]
 
 document.querySelector("#itemName").textContent = item.name
 document.querySelector("#itemPrice").textContent =   item.price +"€"
