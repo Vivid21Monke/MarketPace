@@ -33,7 +33,7 @@ items.forEach(item => {
   viewLink.className = "View--Button";
   viewLink.textContent = "View more";
   viewLink.onclick = () => {
-    localStorage.setItem("selectedItemId", item.id);
+    sessionStorage.setItem("selectedItemId", item.id);
   };
 
   info.appendChild(nameDiv);

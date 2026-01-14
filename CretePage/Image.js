@@ -78,6 +78,7 @@ createBtn.addEventListener("click", () => {
     };
 
     const items = JSON.parse(sessionStorage.getItem("marketItems")) || [];
+    console.log(items);
     items.push(newItem);
     sessionStorage.setItem("marketItems", JSON.stringify(items));
 
