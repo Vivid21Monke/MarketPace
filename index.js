@@ -1,4 +1,4 @@
-const items = JSON.parse(localStorage.getItem("marketItems")) || [];
+const items = JSON.parse(sessionStorage.getItem("marketItems")) || [];
 const container = document.getElementById("itemsContainer");
 
 if (items.length === 0) {
